@@ -29,12 +29,4 @@ inspirecloud deploy
 - [轻服务文档](https://qingfuwu.cn/docs/nodejs/#what-is)
 - [Waline 文档](https://waline.js.org)
 
-app.js
 
-const Application = require('@waline/vercel');
-
-module.exports = Application({
-  async postSave(comment) {
-    // do what ever you want after save comment
-  },
-});
