@@ -1,47 +1,77 @@
 <!DOCTYPE html>
 <html lang="zh-CH">
     <head>
-        <link rel="stylesheet" href="https://www.adalab.cn/admission.css">
-        <link rel="stylesheet"  href="https://github.com/zzwlearn/zzwlenrn.github.io/style.css">
-        <link rel="stylesheet" href="style.css">
-        
+       
+        <link rel="stylesheet" type="text/css" href="style.css">
         <script src="thumbnail.js"></script>
+        <script type="text/javascript">
+            function Show_Hidden(trid){
+                if(trid.style.display=="block"){
+                    trid.style.display='none';
+                }else{
+                    trid.style.display='block';
+                }
+            }
+            function Show_Hidden(trid2){
+                if(trid2.style.display=="block"){
+                    trid2.style.display='none';
+                }else{
+                    trid2.style.display='block';
+                }
+            }
+            function Show_Hidden(trid3){
+                if(trid3.style.display=="block"){
+                    trid3.style.display='none';
+                }else{
+                    trid3.style.display='block';
+                }
+            }
+            </script>
     </head>
     <header>
         <meta charset="UTF-8">
-        
-        <h1>程序员需要怎样选择适合自己的笔记本？</h1>
         <a href="https://zhuanlan.zhihu.com/p/84580494"><img src="	https://pic3.zhimg.com/v2-3755cbea7bc1f3aae7f308748f0c085e_r.jpg?source=172ae18b" alt="" width="100%"></a>
+        <h1>程序员需要怎样选择适合自己的笔记本？</h1>
     </header>
     <main>
         <aside>
-            <h2>笔记本电脑分类</h2>
-            <ul>
+            <h2 onclick="Show_Hidden(tr1)"><a href="javascript:;">笔记本电脑分类</a></h2>
+            <ul id="tr1" style="display:none;">
                 <li><a href="https://pro.jd.com/mall/active/J4AbPwB7fmMMKgjNzuKF7XuEb8C/index.html?jd_pop=49fd6dc7-1bc7-4fa0-ad2f-5ee1cae65244&ad_od=1&mtm_source=kepler-open&mtm_subsource=d391e66cee144a13819a5421cd834e6f&utm_source=www.baidu.com&utm_medium=zssc&utm_campaign=t_1000342893_&utm_term=49fd6dc7-1bc7-4fa0-ad2f-5ee1cae65244-p_3141&extension_id=eyJhZCI6IiIsImNoIjoiOCIsInNob3AiOiIwIiwic2t1IjoiIiwidHMiOiIxNjQ1ODY0OTU5In0=">轻薄本</a></li>
                 <li><a href="https://activity.lenovo.com.cn/2022ccf/chaopinri.html?pmf_source=P0000002488M0000&pmf_keyword=K0012480">游戏本</a></li>
                 <li><a href="https://www.dell.com/zh-cn/outlet?gacd=9749712-2229728-0-7w5cf-10009064&dgc=mb&cid=2229728&lid=7w5cf">全能本</a></li>
+                <li><a href="https://www.vmall.com/product/10086967025187.html?cid=141755">商务本(高端轻薄本)</a></li>
+            </ul>
+            <h3 onclick="Show_Hidden(trid2)"><a href="javascript: ;">笔记本配置解读</a></h3>
+            <ul id="trid2" style="display:none;">
+                <li>笔记本电脑CPU</li>
+                <li>笔记本电脑显卡</li>
+                <li>笔记本电脑内存</li>
+                <li>笔记本电脑硬盘</li>
+                <li>笔记本电脑屏幕</li>
+                <li>笔记本电脑的散热设计</li>
+                <li>笔记本电脑的接口</li>
+                <li>笔记本电脑的重量</li>
+                <li>笔记本电脑的加分项：指纹识别功能</li>
+            </ul>
+            <h4 onclick="Show_Hidden(trid3)"><a href="javascript:;">笔记本电脑品牌扫盲</a> </h4>
+            <ul id="trid3" style="display:none;">
+                <li>苹果高端轻薄笔记本</li>
+                <li>微软（Microsoft）</li>
+                <li>联想(含TinkPad)</li>
+                <li>戴尔笔记本Dell</li>
+                <li>惠普(HP)</li>
+                <li>三星(SUMSUNG)</li>
+                <li>LG</li>
             </ul>
         </aside>
-        <article>
-            
-                <h3>笔记本配置解读</h3>
-                <ul>
-                    <li>笔记本电脑CPU</li>
-                    <li>笔记本电脑显卡</li>
-                    <li>笔记本电脑内存</li>
-                </ul>
-                <h4>笔记本电脑品牌扫盲</h4>
-                <ul>
-                    <li>苹果高端轻薄笔记本</li>
-                    <li>微软</li>
-                    <li>联想</li>
-                </ul>
-            
-                <a href="">
-                    测试鼠标悬停改变颜色
+        <article>      
+            <div>
+                <a href="javascript:;">
+                    <div>测试鼠标悬停改变字体颜色</div>
                 </a>
-                 <img id="smart-image" class="small" src="https://desk-fd.zol-img.com.cn/t_s960x600c5/g5/M00/02/05/ChMkJ1bKyaOIB1YfAAusnvE99Z8AALIQQPgER4AC6y2052.jpg" alt="">
-            
+                <img id="smart-image" width="800px" class="small" src="https://desk-fd.zol-img.com.cn/t_s960x600c5/g5/M00/02/05/ChMkJ1bKyaOIB1YfAAusnvE99Z8AALIQQPgER4AC6y2052.jpg" alt="">
+            </div>
           </article>
         
     </main>
